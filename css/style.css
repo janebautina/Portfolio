@@ -4,44 +4,59 @@
 
 body {
     font-weight: 100;
-    padding: 20px;
+    padding-top: 20px;
     font-family: 'Orbitron', sans-serif;
 }
+/* Evgeniya Bautina*/
 .super-t {
   font-size: 56px;
+  text-shadow: 5px 5px 5px #aaa;
 }
-
-.col-md-2{
-  padding:10px;
-}
-
-
+/*Projects*/
 .col-md-4{
-  padding-top: 15px;
-}
-.col-md-12{
-  padding-bottom: 15px;
-  padding-top: 15px;
+  padding-top: 40px;
 }
 
-
-#rest{
-  clear:both;
+#list  p {
+    font: arial;
+    font-size: 14px;
 }
-.row {
-  border-bottom: 2px solid gray;
+
+.border {
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
 }
 h1{
   -webkit-animation-duration: 5s;
   -webkit-animation-delay: 0s;
   -webkit-animation-iteration-count: 2;
 }
-img.row-link{
-  display: block;
-  margin-left: auto;
-  margin-right: auto  
+h3{
+  text-shadow: 3px 3px 3px #aaa;
+}
+a:link, a:visited, a:hover, a:active{text-decoration: none;}
+
+.col-md-3{
+  margin-bottom: 10px; 
+}
+img{
+  width:100%;
+}
+/* zocial */
+[class*="zocial-"]:before {
+
+  font-family: 'zocial', sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #aaa;
+  padding: 30px;
+  width: 2em;
+}
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+  font-size: 30px;
+  width: 2em;
+  padding: 30px;
+  text-shadow: 3px 3px 3px #aaa;
 }
 
-.no-b{
-  border-bottom: 2px solid white;
-}
